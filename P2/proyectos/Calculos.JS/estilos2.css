@@ -1,0 +1,33 @@
+*{
+ margin: 8;
+ padding: 8;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    height: 150vmax;
+}
+#principal{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1920px;
+    
+}
+h1{
+    padding-top: vw;
+    padding-bottom: vw;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+}
+from{
+    margin-top: 2vw;
+
+    text-align: center;
+}
+label{
+    color: antiquewhite;
+}
