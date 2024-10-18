@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Estilo del menú de navegación */
+nav.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Botón para cambiar el modo */
+#toggle-button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toggle-button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode nav.menu {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode nav.menu ul li a {
+    color: #ffffff;
+}
+
+body.dark-mode #toggle-button {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos para el modo claro (por defecto) */
+body.light-mode {
+    background-color: #ffffff;
+    color: #333;
+}
+
+body.light-mode nav.menu {
+    background-color: #f4f4f4;
+}
+
+body.light-mode nav.menu ul li a {
+    color: #333;
+}
+
+body.light-mode #toggle-button {
+    background-color: #333;
+    color: #fff;
+}

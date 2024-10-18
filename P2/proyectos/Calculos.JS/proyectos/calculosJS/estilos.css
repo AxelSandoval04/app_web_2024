@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #4cafaf;
+    color: white;
+    padding: 10px;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4cafaf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Preferencia al segundo código */
+}
+
+hr {
+    color: white;
+}
+
+#resultado {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#principal {
+    display: inline-block; /* Preferencia al segundo código */
+}
+
+#tipo {
+    width: auto;
+}
+
+#boton1 {
+    border: none;
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 2vw;
+    background-color: rgb(0, 4, 0);
+    color: limegreen;
+    cursor: pointer;
+}
