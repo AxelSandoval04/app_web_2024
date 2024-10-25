@@ -1,0 +1,143 @@
+/* Aplicar estilos generales */
+body {
+    font-family: Arial,sans-serif; /* Establecer una fuente general */
+    margin: 0;
+    padding: 0;
+}
+
+/* APLICAR ESTILOS A EL HEADER "INICIO" */
+#inicio{
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    height: 100vmin;
+}
+.contenedor{
+    margin: auto;
+    width: 90%;
+    max-width: 1920px;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu p{
+    display: inline;
+    font-size: 2vmax;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.lista{
+    display: flex;
+    list-style-type: none;
+    font-size: 3vw;
+
+}
+.lista li{
+    margin-left: 1.5vmin;
+    justify-content: center;
+
+}
+.btn-menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.btn-menu:hover{
+
+    color: white;
+    border: black;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    border: 1px solid silver;
+}
+.titular{
+    margin-top: 12rem;
+    text-align: center;
+
+}
+.titular h2{
+    font-size: 2,5vw;
+    margin-bottom:  4vw;
+    
+}
+.btn-menu{
+    background-color: #5db05d;
+    padding: 2vw;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    
+}
+.btn-menu :hover{
+    font-size: 1.1vw;
+
+}
+.btn:active{
+    background-color: yellow;
+}
+/* Aplicar estilos a la seccion "sobremi" */
+#sobre-mi {
+    padding: 20px;
+    text-align: center;
+}
+
+#sobre-mi h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.sobre-mi-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.imagen {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: border-radius 0.3s ease;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(5, 255, 72, 0.95);
+}
+
+.sobre-mi-texto {
+    max-width: 100%;
+    text-align: left;
+}
+
+.sobre-mi-texto p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.sobre-mi-texto button {
+    background-color: #0380c9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sobre-mi-texto button:hover {
+    background-color: #005f8d;
+}
+
+.imagen:hover {
+    border-radius: 0%;
+}
+
+/* APLICAR ESTILOS A LA SECCION "SERVICIOS" */
+
+/* Aplicar estilos a el atributo class */
+
+/* Aplicar estilos al pie */
