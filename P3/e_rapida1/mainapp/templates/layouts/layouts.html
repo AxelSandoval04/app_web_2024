@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% comment %} Aqui va el bloque del Titulo {% endcomment %}
+        {% endblock title %}
+
+    </title>
+</head>
+<body>
+    <h1>Estoy en el inicio </h1>
+    <h2>Estoy en mi pagina de DJANGO </h2>
+    <nav class="navbar">
+        <a href="#" class="logo">MiSitio</a>
+        <ul>
+          <li><a href="{% url "inicio" %}}">Inicio</a></li>
+          <li><a href="{% url "mision" %}">Mision</a></li>
+          <li><a href="{% url "vision" %}">Vision</a></li>
+          <li><a href="{% url "acercade" %}">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    {% block content %}
+    {% comment "Aqui se ejecuta el contenido del content" %}{% endcomment %}
+    {% endblock content %}
+
+</body>
+</html>
